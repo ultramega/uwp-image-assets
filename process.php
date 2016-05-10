@@ -3,7 +3,7 @@
 /*
  * The MIT License
  *
- * Copyright 2015 Steve Guidetti.
+ * Copyright 2016 Steve Guidetti.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -125,6 +125,15 @@ if(!empty($_FILES)) {
     header('Location: index.php');
 }
 
+/**
+ * Generate a resized PNG image and add it to ZipArchive.
+ * 
+ * @param resource $srcImage The source image
+ * @param ZipArchive $zip The destination archive
+ * @param string $name The name of the generated image file
+ * @param int $w The width of the generated image in pixels
+ * @param int $h The height of the generated image in pixels
+ */
 function generateImage($srcImage, ZipArchive $zip, $name, $w, $h) {
     $image = imagecreatetruecolor($w, $h);
     imagesavealpha($image, true);
@@ -139,6 +148,13 @@ function generateImage($srcImage, ZipArchive $zip, $name, $w, $h) {
     imagedestroy($image);
 }
 
+/**
+ * Get an image resource from a file upload.
+ * 
+ * @param string $key The key for the $_FILES array
+ * @return null|resource An image resource or NULL if the file does not exist
+ * @throws RuntimeException
+ */
 function getImage($key) {
     if(!array_key_exists($key, $_FILES) || !array_key_exists('error', $_FILES[$key]) || is_array($_FILES[$key]['error'])) {
         return null;
