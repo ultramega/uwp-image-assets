@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #1681b5;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -20,7 +24,9 @@ p {
 }
 
 #content {
-    width: 900px;
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
     margin: 12px auto;
     padding: 8px 18px;
     background: #ffffff;
