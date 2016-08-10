@@ -23,7 +23,7 @@ THE SOFTWARE.
 -->
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title>UWP Image Asset Generator</title>
     </head>
