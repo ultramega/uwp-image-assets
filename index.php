@@ -24,62 +24,8 @@ THE SOFTWARE.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
         <title>UWP Image Asset Generator</title>
-        <style lang="text/css">
-            body {
-                background-color: #1681b5;
-                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                color: #333333;
-            }
-
-            h1, h2 {
-                margin: 0;
-                font-family: 'Segoe UI', Tahoma, Helvetica, sans-serif;
-                font-weight: 400;
-            }
-
-            h2 {
-                font-size: 20px;
-                margin-bottom: 4px;
-            }
-
-            p {
-                font-size: 15px;
-            }
-
-            #content {
-                width: 900px;
-                margin: 12px auto;
-                padding: 8px 18px;
-                background: #ffffff;
-                border: 1px solid #999999;
-            }
-
-            #footer p {
-                font-size: 9px;
-                text-align: center;
-                color: #eeeeee;
-            }
-
-            #footer a {
-                color: #cccccc;
-            }
-
-            label div {
-                margin-bottom: 4px;
-                padding: 6px;
-                background: #fefefe;
-                border: 2px solid #cccccc;
-            }
-
-            input[type=submit] {
-                display: block;
-                margin: 0 auto;
-                padding: 4px 20px;
-                font-size: 16px;
-                font-weight: bold;
-            }
-        </style>
     </head>
     <body>
         <div id="content">
