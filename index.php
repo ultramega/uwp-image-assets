@@ -16,46 +16,46 @@
                 <label>
                     <div>
                         <h2>Logo-AppList (176x176)</h2>
-                        <input type="file" name="AppList" />
+                        <input type="file" name="AppList">
                     </div>
                 </label>
                 <label>
                     <div>
                         <h2>Logo-NoMargins (256x256)</h2>
-                        <input type="file" name="NoMargins" />
+                        <input type="file" name="NoMargins">
                     </div>
                 </label>
                 <label>
                     <div>
                         <h2>Logo-TileSmall (284x284)</h2>
-                        <input type="file" name="TileSmall" />
+                        <input type="file" name="TileSmall">
                     </div>
                 </label>
                 <label>
                     <div>
                         <h2>Logo-TileLargeMedium (1240x1240)</h2>
-                        <input type="file" name="TileLargeMedium" />
+                        <input type="file" name="TileLargeMedium">
                     </div>
                 </label>
                 <label>
                     <div>
                         <h2>Logo-TileWide (1240x600)</h2>
-                        <input type="file" name="TileWide" />
+                        <input type="file" name="TileWide">
                     </div>
                 </label>
                 <label>
                     <div>
                         <h2>SplashScreen (2480x1200)</h2>
-                        <input type="file" name="SplashScreen" />
+                        <input type="file" name="SplashScreen">
                     </div>
                 </label>
                 <label>
                     <div>
                         <h2>StoreLogo (200x200)</h2>
-                        <input type="file" name="StoreLogo" />
+                        <input type="file" name="StoreLogo">
                     </div>
                 </label>
-                <div><input type="submit" value="Generate" /></div>
+                <div><input type="submit" value="Generate"></div>
             </form>
         </div>
         <div id="footer">Copyright &copy; <?php echo date('Y'); ?> <a href="http://ultramegasoft.com/">UltraMega Software</a> | <a href="https://sguidetti.mit-license.org/">MIT License</a> | <a href="https://github.com/ultramega/uwp-image-assets">Source available on GitHub</a>.</div>
